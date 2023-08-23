@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body onload="Weather()">
+  
+
+    <div class="container">
+        <div class="searchbox">
+            <input type="text" class="search" placeholder="SEARCH CITY">
+            <button type="submit" class="submit" onclick="Weather()"><i class="fa fa-search"></i></button>
+            
+            <div class="location"></div>
+        </div>
+
+        <div class="recent">
+           
+            
+            <div class="location"></div>
+            <div class="temp"></div>
+            <div ><img class="icon"></div>
+            <div class="description"></div>
+           
+
+           
+            
+            
+          
+        </div>
+
+        <div class="details">
+            <div class="card">
+                <img class= "details_icon" src="wind-direction.png" alt="">
+                <p class="wind"></p>
+                
+            </div>
+            
+            <div class="card">
+                <img class= "details_icon" src="visibility.png" alt="">
+                <p class="vis"></p>
+                
+                
+            </div>
+           
+        </div>
+
+
+
+
+
+    </div>
+    
+</body>
+</html>
