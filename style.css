@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #000;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top:10% ;
+    text-align: center;
+}
+
+input[type=text] {
+    padding: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    border: 1px solid grey;
+    color: rgb(40, 12, 117);
+    background: #f1f1f1;
+    text-transform: uppercase;
+  }
+
+  .location{
+    margin-top: 30px;
+  }
+  
+  button {
+    padding: 10px;
+    background: #2196F3;
+    border-radius: 50%;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; 
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: #97255e;
+  }
+  
+  .temp{
+    font-size: 42px;
+  }
+
+  .sunriseandset,.sunsetset{
+    border: 1px solid;
+border-radius: 15px;
+margin: 5px;
+padding: 10px;
+background-color: rgb(59, 84, 84);
+
+  }
+
+.sun{
+    display: flex;
+    justify-content: space-between;
+}
+.photo{
+  margin: 50px;
+}
+
+.details{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin: 10px;
+  padding: 10px;
+  align-items: space-around;
+}
+
+.card{
+  margin: 20px;
+
+}
+
+.details_icon{
+  width: 40px;
+  height: 40px;
+}
